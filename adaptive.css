@@ -16,20 +16,22 @@
     height: 129.83px;
   }
 }
-/* 1675px и меньше */
-@media screen and (max-width: 1675px) {
-  .about-footer {
-    padding: 4.1px 0;
+/* 1691px и меньше */
+@media screen and (max-width: 1690px) {
+  .advantages li {
+    margin-bottom: 9px;
+  }
+  .about-description {
+    margin-bottom: 8px;
   }
 }
-
-/* 1604px и меньше */
-@media screen and (max-width: 1604px) {
+/* 1621px и меньше */
+@media screen and (max-width: 1621px) {
   .about-footer {
     padding: 0 0;
   }
   .advantages li {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
   }
   .about-description {
     margin-bottom: 8px;

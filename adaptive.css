@@ -16,12 +16,40 @@
     height: 129.83px;
   }
 }
+/* 1675px и меньше */
+@media screen and (max-width: 1675px) {
+  .about-footer {
+    padding: 4.1px 0;
+  }
+}
+
+/* 1604px и меньше */
+@media screen and (max-width: 1604px) {
+  .about-footer {
+    padding: 0 0;
+  }
+  .advantages li {
+    margin-bottom: 9px;
+  }
+  .about-description {
+    margin-bottom: 8px;
+  }
+}
 
 /* 1160px и меньше */
 @media screen and (max-width: 1160px) {
   .container {
     width: 66.2%;
     max-width: 768px;
+  }
+  .about-footer {
+    padding: 11px 0;
+  }
+  .advantages li {
+    margin-bottom: 10px;
+  }
+  .about-description {
+    margin-bottom: 20px;
   }
 
   .navbar {
@@ -119,7 +147,7 @@
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .about-description {
@@ -153,7 +181,7 @@
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .item-wide {
     height: 165.04px;
@@ -202,9 +230,16 @@
 
   .product-info {
     padding: 12px;
+    font-size: 16px;
     flex: 1;
     display: flex;
     flex-direction: column;
+  }
+  .count {
+    font-size: 14px;
+  }
+  .button {
+    font-size: 16px;
   }
 
   .product-info h3 {
